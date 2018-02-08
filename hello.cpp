@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -7,10 +8,16 @@ using namespace std;
 class Concept {
 
     public:
-        void just_init() {
-            cout << "boom!" << endl;
+        void setName(string x) {
+            name = x;
+        }
+        string getName() {
+            return name;
         }
 
+        
+    private:
+        string name;
 
 };
 
@@ -19,8 +26,10 @@ class Concept {
 
 int main()
 {
-    Concept concept_class; //creation of the object
-    concept_class.just_init();
+    Concept bo;
+    bo.setName("einai o tom?");
+    cout << bo.getName() << endl;
+
 
     return 0;
 }
