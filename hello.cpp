@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include "Operator.h"
+#include "If_ex.h"
 
 using namespace std;
 
@@ -38,6 +39,8 @@ int main()
     Concept bo2("second object");
     cout << bo2.getName() << endl;
     Operator bo3;
+
+    If_ex kotion;
 
 
 
