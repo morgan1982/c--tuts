@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include "Operator.h"
 
 using namespace std;
 
@@ -36,6 +37,9 @@ int main()
     cout << bo.getName() << endl;
     Concept bo2("second object");
     cout << bo2.getName() << endl;
+    Operator bo3;
+
+
 
 
     return 0;
