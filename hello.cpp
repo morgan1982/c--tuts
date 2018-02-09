@@ -42,7 +42,7 @@ int main()
     cout << bo2.getName() << endl;
     Operator bo3;
 
-    While_ex example_1;
+    // While_ex example_1;
 
     Testing_ground test;
 
