@@ -2,7 +2,8 @@
 #include <string>
 #include "Operator.h"
 #include "If_ex.h"
-#include "While_ex.h" 
+#include "While_ex.h"
+#include "Testing_ground.h" 
 
 using namespace std;
 
@@ -42,6 +43,8 @@ int main()
     Operator bo3;
 
     While_ex example_1;
+
+    Testing_ground test;
 
 
     If_ex kotion;
